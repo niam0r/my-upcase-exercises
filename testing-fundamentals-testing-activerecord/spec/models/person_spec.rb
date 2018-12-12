@@ -14,4 +14,11 @@ describe Person do
 
     expect(person).to be_invalid
   end
+
+  it "is valid with a first_name" do
+    person = Person.new(first_name: "John")
+
+
+    expect(person).to be_valid
+  end
 end
