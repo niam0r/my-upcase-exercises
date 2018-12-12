@@ -7,4 +7,11 @@ describe Person do
 
     expect(person).to be_invalid
   end
+
+  it "is invalid with an empty first_name" do
+    person = Person.new(first_name: "")
+
+
+    expect(person).to be_invalid
+  end
 end
