@@ -37,3 +37,5 @@ describe PeopleController do
     end
   end
 end
+
+# upcase forum thread: https://forum.upcase.com/t/testing-fundamentals-write-a-controller-spec/4569
